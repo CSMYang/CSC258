@@ -1,0 +1,24 @@
+
+State Machine - |snake|combination:u0|control:u0|current_state
+Name current_state.RESTART current_state.DELAY current_state.UPDATE_HEAD current_state.CHECK current_state.UPDATEP2 current_state.UPDATEP1 current_state.SHIFT current_state.ET current_state.WAIT current_state.DRAWT current_state.DRAWB2 current_state.DRAWB1 current_state.DRAWH current_state.START 
+current_state.START 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.DRAWH 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.DRAWB1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.DRAWB2 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.DRAWT 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.WAIT 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.ET 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.SHIFT 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.UPDATEP1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.UPDATEP2 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.CHECK 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.UPDATE_HEAD 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.DELAY 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.RESTART 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |snake|combination:u0|control:u0|direction
+Name direction.11 direction.10 direction.01 direction.00 
+direction.00 0 0 0 0 
+direction.01 0 0 1 1 
+direction.10 0 1 0 1 
+direction.11 1 0 0 1 

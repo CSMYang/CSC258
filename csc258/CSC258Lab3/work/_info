@@ -1,0 +1,118 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/h/u14/c8/00/yangzh48/CSC258Lab3
+vALU
+Z1 !s110 1548640594
+!i10b 1
+!s100 N:?z6bE8ZRRPMPdRF^h5l1
+If8JEoz9haVcX0hhm0VhA<2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1548640289
+Z4 8ALU.v
+Z5 FALU.v
+L0 48
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1548640594.000000
+Z8 !s107 ALU.v|
+Z9 !s90 -reportprogress|300|-timescale|1ns/1ns|ALU.v|
+!i113 1
+Z10 o-timescale 1ns/1ns
+Z11 tCvgOpt 0
+n@a@l@u
+vdecoder
+R1
+!i10b 1
+!s100 QMcRe6]GfhoJL4UOF5G2k0
+I9l>`FI?VTdXlWof0>J6j<2
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+vfourBitAdder
+R1
+!i10b 1
+!s100 aQ<i:3M2=RVY;aR?NWb593
+IanYP]Qd`;oz[eY4ZMDgYf0
+R2
+R0
+R3
+R4
+R5
+L0 38
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nfour@bit@adder
+vfullAdder
+R1
+!i10b 1
+!s100 GVU0B2ngYU9De=@Z?3KX70
+Iij4HX[zQQUbjdYUdRS<930
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nfull@adder
+vmux7to1
+!s110 1548627429
+!i10b 1
+!s100 Aj7fMa@?LX]ggh?RBi4ER1
+IMzO0<B>98GJ3jCim[eNJe2
+R2
+R0
+w1548625327
+8mux7to1.v
+Fmux7to1.v
+L0 1
+R6
+r1
+!s85 0
+31
+!s108 1548627429.000000
+!s107 mux7to1.v|
+!s90 -reportprogress|300|-timescale|1ns/1ns|mux7to1.v|
+!i113 1
+R10
+R11

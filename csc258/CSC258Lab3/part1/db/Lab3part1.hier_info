@@ -1,0 +1,22 @@
+|fullAdder
+A => S.IN0
+A => S.IN0
+A => cout.IN0
+A => S.IN0
+A => S.IN0
+B => S.IN1
+B => cout.IN1
+B => S.IN1
+B => S.IN1
+cin => S.IN1
+cin => S.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => cout.IN1
+cin => S.IN1
+cin => S.IN1
+cin => cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

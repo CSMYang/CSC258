@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, ../Verilog1.v
+source_file = 1, /h/u14/c8/00/yangzh48/CSC258Lab3/fa4.v
+source_file = 1, /h/u14/c8/00/yangzh48/CSC258Lab3/part1/db/Lab3part1.cbx.xml
+design_name = fullAdder
+instance = comp, \S~output , S~output, fullAdder, 1
+instance = comp, \cout~output , cout~output, fullAdder, 1
+instance = comp, \A~input , A~input, fullAdder, 1
+instance = comp, \cin~input , cin~input, fullAdder, 1
+instance = comp, \B~input , B~input, fullAdder, 1
+instance = comp, \S~0 , S~0, fullAdder, 1
+instance = comp, \cout~0 , cout~0, fullAdder, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, fullAdder, 1
