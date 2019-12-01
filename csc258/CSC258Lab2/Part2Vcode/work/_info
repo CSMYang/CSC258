@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/h/u14/c8/00/yangzh48/CSC258Lab2/Part2Vcode
+vdecoder
+!s110 1548039521
+!i10b 1
+!s100 5EifjUPSodRQ>2kQKbY?60
+Ij:Dao7Zf:dd>He]Lj1B7D1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1548039452
+8decoder.v
+Fdecoder.v
+L0 1
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1548039521.000000
+!s107 decoder.v|
+!s90 -reportprogress|300|-timescale|1ns/1ns|decoder.v|
+!i113 1
+Z3 o-timescale 1ns/1ns
+Z4 tCvgOpt 0
+vmux
+!s110 1548028139
+!i10b 1
+!s100 [DlM^<ZaQV0Zd>zKCAf[03
+IdHiK:VjhBYgf_mkIi3lQA3
+R1
+R0
+Z5 w1548027361
+Z6 8mux.v
+Z7 Fmux.v
+L0 6
+R2
+r1
+!s85 0
+31
+Z8 !s108 1548028139.000000
+Z9 !s107 mux.v|
+Z10 !s90 -reportprogress|300|-timescale|1ns/1ns|mux.v|
+!i113 1
+R3
+R4
+vmux2to1
+Z11 !s110 1548028140
+!i10b 1
+!s100 hBgi0eR2<He:S4T40HmYD1
+I8K;G9`OjX]0hgfbSK^coU3
+R1
+R0
+R5
+R6
+R7
+L0 21
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+R4
+vmux4to1
+R11
+!i10b 1
+!s100 U`47CZDSCJ7Z?TV3HJ7VH0
+IiZbVUibiOdMYQN:51ohfP2
+R1
+R0
+R5
+R6
+R7
+L0 34
+R2
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R3
+R4

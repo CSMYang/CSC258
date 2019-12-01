@@ -1,0 +1,32 @@
+//SW[ 2 : 0 ] d a t a i n p u t s
+//SW[ 9 ] s e l e c t s i g n a l
+//LEDR[ 0 ] o u t p u t d i s p l a y
+module mux(LEDR, SW) ;
+	input [ 9 : 0 ] SW;
+	output [ 9 : 0 ] LEDR;
+	mux2to1 u0 (
+		. x (SW[ 0 ] ) ,
+		. y (SW[ 1 ] ) ,
+		. s (SW[ 9 ] ) ,
+		.m(LEDR [ 0 ] )
+	);
+endmodule
+
+module mux2to1 ( x , y , s , m) ;
+	input x ; // s e l e c t e d when s i s 0
+	input y ; // s e l e c t e d when s i s 1
+	input s ; // s e l e c t s i g n a l
+	output m; // o u t p u t
+	assign m = s & y |  ̃ s & x ;
+	// OR
+	// a s s i g n m = s ? y : x ;
+endmodule
+
+module mux4to1(u, v, w, x, s0, s1, m);
+	input u, v, w, x, s0, s1;
+	output m;
+	wire uw_to_s0, vx_to_s0;
+	mux2to1 m1(u, w, s1, uw_to_s0); // Creates a multiplexer connecting u and w by the switch s1.
+	mux2to1 m2(v,x,s1, vx_to_s0); // Creates a multiplexer connecting v and x by switch s1.
+	mux2to1 m3(uw_to_s0, vx_to_s0, s1, m);
+endmodule
