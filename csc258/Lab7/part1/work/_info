@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/chuan/Documents/CSC258/Lab7/part1
+vdecoder
+!s110 1552348144
+!i10b 1
+!s100 7OmODA<m<<hM4JHF0iYj;3
+ILbm:;O=4Mnh^KAcIzT9C30
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1552348137
+8memory.v
+Fmemory.v
+L0 18
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1552348144.000000
+!s107 memory.v|
+!s90 -reportprogress|300|-timescale|1ns/1ns|memory.v|
+!i113 1
+Z3 o-timescale 1ns/1ns
+Z4 tCvgOpt 0
+vram32x4
+!s110 1552349004
+!i10b 1
+!s100 @cDlembl72aoMzFDL^KMY3
+If=o<7mM]YglgAdjUFM2N@0
+R1
+R0
+w1552348217
+8ram32x4.v
+Fram32x4.v
+L0 42
+R2
+r1
+!s85 0
+31
+!s108 1552349004.000000
+!s107 ram32x4.v|
+!s90 -reportprogress|300|-timescale|1ns/1ns|ram32x4.v|
+!i113 1
+R3
+R4
